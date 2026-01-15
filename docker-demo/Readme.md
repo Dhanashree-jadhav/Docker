@@ -1,4 +1,6 @@
-📌 Dockerfile Instructions Explained (Purpose-Oriented)
+📌 Dockerfile Instructions
+
+
 🔸 FROM ubuntu:22.04
 
 Defines the base image
