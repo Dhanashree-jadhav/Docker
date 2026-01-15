@@ -35,14 +35,21 @@ Default command executed when container starts
 
 
 🔨 How to Build the Docker Image
+
 docker build -t docker-demo .
+
 Important points:
+
 -t docker-demo → image name
+
 . → build context (current directory)
+
 Docker looks for Dockerfile in this directory
 
 -t = tag
+
 A tag is made of:
+
 image-name:version
 
 If you don’t specify a version, Docker assumes:
