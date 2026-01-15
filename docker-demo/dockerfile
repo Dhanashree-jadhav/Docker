@@ -1,0 +1,14 @@
+# Base image
+FROM ubuntu:22.04
+
+# Install required packages
+RUN apt-get update && apt-get install -y curl
+
+# Set working directory inside container
+WORKDIR /app
+
+# Copy files from host to container
+COPY . .
+
+# Default command
+CMD ["echo", "Hello Docker! My first Dockerfile is working 🚀"]
